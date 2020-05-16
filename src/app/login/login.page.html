@@ -1,0 +1,35 @@
+<ion-content class="customScroll">
+  <ion-grid class="aligncenter" style="background-image: url(../assets/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;">
+    <ion-row justify-content-center class="flexDiv">
+      <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+        <div text-center style="margin-top: 60px; color: azure;">
+          <h4>Login</h4>
+        </div>
+        <div padding class="loginDiv">
+          <ion-item>
+            <ion-label color="light" position="floating">Email</ion-label>
+            <ion-input autofocus='true' [(ngModel)]="usename"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="light" position="floating">Password</ion-label>
+            <ion-input type="password" [(ngModel)]="password"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div padding class="links">
+          <a href="/forgot-password" style="float: right;text-decoration: underline;">Forgot Your Password?</a>
+        </div>
+        <div padding class="links">
+          <ion-button expand="block" size="medium" style="--background: #f7d134" (click)="login()">Login</ion-button>
+        </div>
+        <div padding class="links" style="float: left;">
+          <a href="/register" style="float: right;text-decoration: underline;">New User? Register Here.</a>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>
