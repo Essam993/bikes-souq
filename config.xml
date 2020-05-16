@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.Toys" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Toys</name>
-    <description>Toys E-Commerce.</description>
+<widget id="io.ionic.bikes" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>bikes</name>
+    <description>bikes E-Commerce.</description>
     <author email="info@itambition.com" href="http://www.itambition.com/">IT Ambition Team</author>
     <content src="index.html" />
     <access origin="*" />
@@ -11,6 +11,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="SplashScreenSpinnerColor" value="#f7d134" />
+    <preference name="SplashScreenBackgroundColor" value="0xFFf7d134"/>
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
